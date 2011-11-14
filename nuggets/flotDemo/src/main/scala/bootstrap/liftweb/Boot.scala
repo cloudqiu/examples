@@ -29,6 +29,7 @@ class Boot {
                   Menu(Loc("Flot: Visitors", List ("visitors"), "Flot: Visitors per day")) ::
                   Menu(Loc("Flot: Interacting", List ("interacting"), "Flot: Interacting with the data")) ::
                   Menu(Loc("flot+comet", List ("flot-comet"), "Flot+Comet")) ::
+                  Menu(Loc("Flot: Pie", List ("pie"), "Flot: Pie example")) ::
                   Nil
 
     LiftRules.setSiteMap(SiteMap(entries:_*))
